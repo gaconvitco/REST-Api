@@ -56,15 +56,7 @@ Let’s generalize the module with correct and incorrect naming conventions.
 |3. | Interface | Use Prefix “I” with Camel Casing to define interface | public interface IEmployee|public interface Iemployee |
 |4. | Local Variables | Use Hungarian Meaningful, descriptive words to name variables. Do not use abbreviations| string firstName <br/> int salary| string fName <br/> string name <br/> string _firstName <br/> int sal |
 
-5.
-
-Member Variables
-
-Member variables must be prefix with underscore(_) so that they can be identified by other local variables and constants
-
-private IEmployee _employeeService = null
-
-private UserRole userRole
+|5.|Member Variables|Member variables must be prefix with underscore(_) so that they can be identified by other local variables and constants|private IEmployee _employeeService = null|private UserRole userRole|
 
 private UserGroup userGroup
 
@@ -185,19 +177,19 @@ Good layout uses formatting to emphasize the structure of your code and to make 
 
 8. Use #region and #endregion to group related piece of code as per below 
 
- a. Private Member
+   a. Private Member
 
- b. Private Properties
+   b. Private Properties
 
- c.     Public Properties
+   c. Public Properties
 
- d.    Constructors
+   d. Constructors
 
- e.     Event Handlers/Action Methods
+   e. Event Handlers/Action Methods
 
- f.     Private Methods
+   f. Private Methods
 
- g.    Public Methods
+   g. Public Methods
 
 9. Do not write comments for every line of code and every variable declared.
 
