@@ -48,3 +48,14 @@ string strName;
 int iAge;
 ```
 Let’s generalize the module with correct and incorrect naming conventions.
+|Sr. No | Module  | Description | Correct | Wrong|
+|-------|---------|-------------|---------|------|
+|1. | Class   |Use Pascal conventions for defining class name| public class HelloWorld
+
+{
+
+}| public classhelloWorld
+{
+
+}
+|
