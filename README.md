@@ -50,4 +50,4 @@ int iAge;
 Let’s generalize the module with correct and incorrect naming conventions.
 |Sr. No | Module  | Description | Correct | Wrong|
 |-------|---------|-------------|---------|------|
-|1. | Class   |Use Pascal conventions for defining class name| <code>class HelloWorld{}</code>|<code> public classhelloWorld{}</code>|
+|1. | Class   |Use Pascal conventions for defining class name| <code>public class HelloWorld\n{\n}</code>|<code> public class helloWorld\n{\n}</code>|
